@@ -26,3 +26,4 @@ public class QuoteController {
         return new ResponseEntity<Optional<Quote>>(quoteService.singleQuote(author), HttpStatus.OK);
     }
 }
+gut 
